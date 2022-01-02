@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     max-width: 1024px;
     min-width: 600px;
@@ -13,7 +17,7 @@ body {
     margin: 0 auto;
 }
 .main-heading {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     display: flex;
     flex-direction: row;
 }
@@ -28,7 +32,8 @@ body {
 .main-heading-right {
     background-color: gray;
     flex-basis: 70%;
-    min-height: 20px;
+    /* min-height: 20px; */
+    height: inherit;
     text-align: left;
 }
 
