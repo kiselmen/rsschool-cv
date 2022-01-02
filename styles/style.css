@@ -1,0 +1,90 @@
+body {
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-heading {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-heading-left {
+    background-color: gray;
+    flex-basis: 30%;
+    min-height: 20px;
+    text-align: left;
+}
+
+.main-heading-right {
+    background-color: gray;
+    flex-basis: 70%;
+    min-height: 20px;
+    text-align: left;
+}
+
+.main-item {
+    display: flex;
+}
+
+.main-item-left {
+    background-color: lightgrey;
+    display: flex;
+    flex-basis: 30%;
+    text-align: right;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+.main-item-right {
+    display: flex;
+    flex-basis: 70%;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-item-right1 {
+    display: flex;
+    flex-basis: 50%;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-item-right2 {
+    display: flex;
+    flex-basis: 20%;
+    text-align: right;
+}
+
+.string-left {
+    padding-right: 5px;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 24px;    
+}
+
+.data {
+    font-size: 20px;
+}
+
+.summary {
+    background-image: url(./city_background1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    height: 100%;
+}
+
