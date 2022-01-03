@@ -1,0 +1,20 @@
+.footer{
+    background-color: burlywood;
+    padding: 20px;
+.}
+
+.footer-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link{
+    width: 100px;
+    height: 50px;
+    background-image: url("https://rs.school/images/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+

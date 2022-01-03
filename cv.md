@@ -1,5 +1,5 @@
 # RS-S
-## Kisialevich Vasily
+## Kisialevich Vasili
 ***
 ### IT-manager
 ***
