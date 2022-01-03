@@ -7,6 +7,9 @@ body {
     min-width: 600px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;    
     background-color: white;
 
 }
@@ -30,7 +33,7 @@ body {
 }
 
 .main-heading-right {
-    background-color: gray;
+    background-color: darkgray;
     flex-basis: 70%;
     /* min-height: 20px; */
     height: inherit;
@@ -73,7 +76,12 @@ body {
 }
 
 .string-left {
-    padding-right: 5px;
+    padding-right: 15px;
+}
+
+.string-right {
+    padding-left: 15px;
+    text-align: "justify"
 }
 
 .heading {
@@ -81,15 +89,4 @@ body {
     font-size: 24px;    
 }
 
-.data {
-    font-size: 20px;
-}
-
-.summary {
-    background-image: url(./city_background1.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat;
-    height: 100%;
-}
 

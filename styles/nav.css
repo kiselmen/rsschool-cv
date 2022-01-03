@@ -7,7 +7,7 @@
     padding: 0 20px;
     line-height: 50px;
     flex-grow: 1;
-    background-color: darkgrey;
+    background-color: burlywood;
 }
 .nav-item:focus{
     padding: 0 20px;
