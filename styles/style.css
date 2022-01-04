@@ -26,8 +26,14 @@ body {
     padding: 0 3px 10px;
     flex-grow: 1;
 }
+
 .list:nth-child(even){
     background-color: ghostwhite;
+}
+
+.code{
+    font-size: 12px;
+    align-self: center;
 }
 
 .main-container {
