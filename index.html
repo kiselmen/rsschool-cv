@@ -74,14 +74,27 @@
             </div>
             <div class="main-item">
                 <div class="main-item-left">
-                    <!-- <div>-</div>
-                    <div>-</div>
-                    <div>-</div>
-                    <div>-</div>
-                    <div>-</div>
-                    <div>-</div>
-                    <div>-</div>
-                    <div>-</div> -->
+                    <div class="code">
+                        <pre>
+                            <code>
+function getCount(str) {
+    let vowelsCount = 0;
+        
+    for (let char of str) {
+        vowelsCount += (char == 'a' || 
+                        char == 'e' || 
+                        char == 'i' || 
+                        char == 'o' || 
+                        char == 'u');
+        console.log(vowelsCount);
+    };
+        
+    return vowelsCount;
+}
+getCount("abracadabra");
+                            </code>
+                        </pre>                               
+                    </div>
                 </div>
                 <ul class="main-item-right">
                     <li class="list">Strong skills and experience in administration of servers and network infrastructure.</li>
