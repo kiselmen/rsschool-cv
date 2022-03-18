@@ -53,5 +53,5 @@ getCount("abracadabra");
 * https://remohire.co
 ### Languages
 * Russian - Native
-* English - B1
+* English - A2
 
